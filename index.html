@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Institute of Technology | Excellence in Education</title>
+    <meta name="description" content="Welcome to Apex Institute of Technology. A premier institution fostering innovation, excellence, and holistic development.">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Loading Animation -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- 1. Header & Navigation -->
+    <header id="header">
+        <a href="#" class="logo"><i class="fa-solid fa-graduation-cap"></i> Apex<span>Tech</span></a>
+        
+        <ul class="nav-menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#admissions">Admissions</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#placements">Placements</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#admissions" class="btn btn-primary" style="margin-left: 15px; color: #fff;">Apply Now</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- 2. Interactive Scrollytelling Hero Section -->
+    <section id="home" class="scroll-story-container">
+        <div class="scroll-story-sticky">
+            <!-- Universal Backgrounds and campus overlays -->
+            <div class="story-bg-overlay"></div>
+            <div class="story-glow-dots"></div>
+
+            <!-- Frame 0: Grand College Entrance Gate -->
+            <div class="story-frame frame-entrance" id="frame-0">
+                <div class="entrance-arch">
+                    <div class="arch-text">APEX INSTITUTE OF TECHNOLOGY</div>
+                </div>
+                <div class="gate-container">
+                    <div class="gate-door gate-left">
+                        <div class="gate-bars"></div>
+                        <div class="gate-crest">A</div>
+                    </div>
+                    <div class="gate-door gate-right">
+                        <div class="gate-bars"></div>
+                        <div class="gate-crest">T</div>
+                    </div>
+                </div>
+                <div class="frame-content">
+                    <span class="story-badge"><i class="fa-solid fa-graduation-cap"></i> ApexTech Campus</span>
+                    <h2>Begin Your Journey</h2>
+                    <p>Scroll down to enter the gates of excellence and explore your future campus.</p>
+                    <div class="scroll-indicator">
+                        <div class="scroll-mouse">
+                            <div class="scroll-wheel"></div>
+                        </div>
+                        <span>Scroll to Enter</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frame 1: Reception Lobby -->
+            <div class="story-frame frame-reception" id="frame-1">
+                <div class="lobby-desk-wrap">
+                    <div class="lobby-backdrop-lines"></div>
+                    <div class="reception-desk">
+                        <div class="desk-branding">Welcome to ApexTech</div>
+                        <div class="desk-glares"></div>
+                    </div>
+                </div>
+                <div class="lobby-glass-doors">
+                    <div class="lobby-door door-left"></div>
+                    <div class="lobby-door door-right"></div>
+                </div>
+                <div class="frame-content">
+                    <span class="story-badge"><i class="fa-solid fa-hotel"></i> Campus Lobby</span>
+                    <h2>The Gateway to Innovation</h2>
+                    <p>Our vibrant reception lobby is where your aspirations meet expert academic guidance.</p>
+                </div>
+            </div>
+
+            <!-- Frame 2: Director's Office -->
+            <div class="story-frame frame-office" id="frame-2">
+                <div class="office-room-wrap">
+                    <div class="office-window">
+                        <div class="window-view"></div>
+                    </div>
+                    <div class="office-bookshelves">
+                        <div class="shelf shelf-1"></div>
+                        <div class="shelf shelf-2"></div>
+                    </div>
+                    <div class="office-desk">
+                        <div class="desk-laptop">
+                            <div class="laptop-screen">
+                                <div class="laptop-code"></div>
+                            </div>
+                            <div class="laptop-keyboard"></div>
+                        </div>
+                        <div class="desk-lamp">
+                            <div class="lamp-glow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame-content">
+                    <span class="story-badge"><i class="fa-solid fa-scale-balanced"></i> Admin & Leadership</span>
+                    <h2>Leadership & Vision</h2>
+                    <p>Fostering academic brilliance and nurturing the leaders of tomorrow with a solid, structured vision.</p>
+                </div>
+            </div>
+
+            <!-- Frame 3: Smart Classroom & Robotics Lab -->
+            <div class="story-frame frame-lab" id="frame-3">
+                <div class="lab-room-wrap">
+                    <div class="lab-smartboard">
+                        <div class="board-content">
+                            <span class="code-line">// Initializing AI & Robotics Modules...</span>
+                            <span class="code-line">const brain = new NeuralNetwork();</span>
+                            <div class="matrix-grid"></div>
+                        </div>
+                    </div>
+                    <div class="robotic-arm-container">
+                        <div class="robotic-base"></div>
+                        <div class="robotic-arm-segment arm-lower">
+                            <div class="robotic-arm-segment arm-upper">
+                                <div class="robotic-hand">
+                                    <div class="robotic-spark"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame-content">
+                    <span class="story-badge"><i class="fa-solid fa-microchip"></i> AI & Robotics Lab</span>
+                    <h2>Hands-on Innovation</h2>
+                    <p>Explore high-tech engineering concepts in our world-class, state-of-the-art computer and robotics facilities.</p>
+                </div>
+            </div>
+
+            <!-- Frame 4: Boardroom & Placement Landing -->
+            <div class="story-frame frame-hero" id="frame-4">
+                <div class="boardroom-view">
+                    <div class="boardroom-screen">
+                        <div class="screen-stat">98% Placements</div>
+                    </div>
+                    <div class="boardroom-table">
+                        <div class="table-mic"></div>
+                    </div>
+                </div>
+                <div class="frame-content">
+                    <span class="story-badge"><i class="fa-solid fa-award"></i> Excellence Redefined</span>
+                    <h1>Shape Your Future with Excellence</h1>
+                    <p>Empowering minds, fostering innovation, and building the leaders of tomorrow at Apex Institute of Technology.</p>
+                    <div class="hero-btns">
+                        <a href="#admissions" class="btn btn-primary">Apply Now</a>
+                        <a href="#departments" class="btn btn-outline">Explore Programs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating stats cards positioned absolute at the bottom of the wrapper section -->
+        <div class="hero-stats">
+            <div class="stat-card">
+                <div class="stat-number" data-target="5000" data-suffix="+">0</div>
+                <p>Students Enrolled</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="250" data-suffix="+">0</div>
+                <p>Expert Faculty</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="98" data-suffix="%">0</div>
+                <p>Placement Rate</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="300" data-suffix="+">0</div>
+                <p>Top Recruiters</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. About College Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Discover Apex Tech</h2>
+            <p class="section-subtitle reveal">A legacy of academic brilliance and technological advancement.</p>
+
+            <div class="about-grid">
+                <div class="about-img-wrap reveal">
+                    <img src="images/robotics-lab.png" alt="Students in modern robotics lab">
+                </div>
+                
+                <div class="about-text reveal">
+                    <div class="vision-mission">
+                        <div class="vm-box">
+                            <h3><i class="fa-regular fa-eye"></i> Our Vision</h3>
+                            <p>To be a globally recognized institution that nurtures intellect, inspires innovation, and creates responsible global citizens through transformative education.</p>
+                        </div>
+                        <div class="vm-box">
+                            <h3><i class="fa-solid fa-bullseye"></i> Our Mission</h3>
+                            <ul>
+                                <li><i class="fa-solid fa-check" style="color:var(--accent-color); margin-right:8px;"></i> Provide cutting-edge curriculum aligned with industry demands.</li>
+                                <li><i class="fa-solid fa-check" style="color:var(--accent-color); margin-right:8px;"></i> Foster a culture of research, creativity, and entrepreneurship.</li>
+                                <li><i class="fa-solid fa-check" style="color:var(--accent-color); margin-right:8px;"></i> Promote holistic development through extracurricular engagement.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-grid reveal">
+                <div class="feature-item">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <h4>Experienced Faculty</h4>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h4>Industry Collabs</h4>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-microscope"></i>
+                    <h4>Research Focus</h4>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h4>Modern Labs</h4>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h4>100% Placement Support</h4>
+                </div>
+                <div class="feature-item">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h4>Innovation Center</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Courses & Departments Section -->
+    <section id="departments" class="courses section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Academic Departments</h2>
+            <p class="section-subtitle reveal">Choose from our industry-aligned undergraduate and postgraduate programs.</p>
+
+            <div class="courses-grid">
+                <div class="course-card reveal">
+                    <div class="course-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>Artificial Intelligence & Data Science</h3>
+                    <p>Master machine learning, neural networks, and big data analytics to lead the AI revolution.</p>
+                    <a href="#" class="course-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="course-card reveal">
+                    <div class="course-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Computer Science Engineering</h3>
+                    <p>Deep dive into software development, cloud computing, algorithms, and cybersecurity.</p>
+                    <a href="#" class="course-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="course-card reveal">
+                    <div class="course-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Electronics & Communication</h3>
+                    <p>Design modern communication systems, IoT devices, and embedded technologies.</p>
+                    <a href="#" class="course-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="course-card reveal">
+                    <div class="course-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Electrical & Electronics</h3>
+                    <p>Innovate in power systems, renewable energy integration, and smart grid technologies.</p>
+                    <a href="#" class="course-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="course-card reveal">
+                    <div class="course-icon"><i class="fa-solid fa-cogs"></i></div>
+                    <h3>Mechanical Engineering</h3>
+                    <p>From CAD design to thermodynamics, prepare for careers in manufacturing and automation.</p>
+                    <a href="#" class="course-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="course-card reveal">
+                    <div class="course-icon"><i class="fa-solid fa-building"></i></div>
+                    <h3>Civil Engineering</h3>
+                    <p>Build the future infrastructure with focus on sustainable design and structural integrity.</p>
+                    <a href="#" class="course-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="course-card reveal">
+                    <div class="course-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>Robotics & Automation</h3>
+                    <p>Explore the mechanics, electronics, and programming behind advanced robotic systems.</p>
+                    <a href="#" class="course-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="course-card reveal">
+                    <div class="course-icon"><i class="fa-solid fa-flask"></i></div>
+                    <h3>Applied Science & Humanities</h3>
+                    <p>The foundational core providing essential skills in mathematics, physics, and communication.</p>
+                    <a href="#" class="course-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Admission Section -->
+    <section id="admissions" class="admission section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Admissions 2026-27</h2>
+            <p class="section-subtitle reveal">Begin your journey towards an extraordinary career. Applications are now open.</p>
+
+            <div class="admission-content">
+                <div class="admission-info reveal">
+                    <h3>Eligibility & Requirements</h3>
+                    <ul class="eligibility-list">
+                        <li>
+                            <i class="fa-solid fa-check-circle"></i>
+                            <div>
+                                <strong>Qualification:</strong>
+                                <p>Minimum 60% aggregate in 10+2 (Physics, Chemistry, Mathematics).</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-circle"></i>
+                            <div>
+                                <strong>Entrance Exams:</strong>
+                                <p>Valid score in JEE Main, State CET, or Apex Tech Entrance Test (ATET).</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <a href="#" class="btn btn-primary" style="margin-top: 30px;">Apply for Admission</a>
+                </div>
+
+                <div class="admission-timeline reveal">
+                    <h3>Admission Process</h3>
+                    <div class="timeline">
+                        <div class="timeline-step">
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <h4>Step 1: Application</h4>
+                                <p>Fill the online application form and submit required documents.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <h4>Step 2: Document Verification</h4>
+                                <p>Our admission team reviews your academic transcripts online.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <h4>Step 3: Entrance Score Review</h4>
+                                <p>Shortlisting based on merit and entrance examination scores.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <h4>Step 4: Confirmation</h4>
+                                <p>Issuance of provisional admission letter to selected candidates.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-icon"></div>
+                            <div class="timeline-content">
+                                <h4>Step 5: Enrollment</h4>
+                                <p>Fee payment and final campus reporting for orientation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Placement & Training Section -->
+    <section id="placements" class="placement section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Stellar Placements</h2>
+            <p class="section-subtitle reveal">Our dedicated placement cell ensures you land your dream job at top global companies.</p>
+
+            <div class="placement-stats reveal">
+                <div class="p-stat-card">
+                    <h3>98%</h3>
+                    <p>Placement Percentage</p>
+                </div>
+                <div class="p-stat-card">
+                    <h3>45 LPA</h3>
+                    <p>Highest Package</p>
+                </div>
+                <div class="p-stat-card">
+                    <h3>8.5 LPA</h3>
+                    <p>Average Package</p>
+                </div>
+                <div class="p-stat-card">
+                    <h3>300+</h3>
+                    <p>Recruiters Visited</p>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; margin-bottom: 30px; color: var(--primary-color);" class="reveal">Top Recruiters</h3>
+            
+            <div class="recruiters-slider reveal">
+                <div class="slider-track">
+                    <!-- Repeated logos for seamless scroll -->
+                    <div class="slide"><h4>Infosys</h4></div>
+                    <div class="slide"><h4>TCS</h4></div>
+                    <div class="slide"><h4>Wipro</h4></div>
+                    <div class="slide"><h4>HCL</h4></div>
+                    <div class="slide"><h4>Accenture</h4></div>
+                    <div class="slide"><h4>Capgemini</h4></div>
+                    <div class="slide"><h4>UST</h4></div>
+                    <div class="slide"><h4>Cognizant</h4></div>
+                    
+                    <div class="slide"><h4>Infosys</h4></div>
+                    <div class="slide"><h4>TCS</h4></div>
+                    <div class="slide"><h4>Wipro</h4></div>
+                    <div class="slide"><h4>HCL</h4></div>
+                    <div class="slide"><h4>Accenture</h4></div>
+                    <div class="slide"><h4>Capgemini</h4></div>
+                    <div class="slide"><h4>UST</h4></div>
+                    <div class="slide"><h4>Cognizant</h4></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Facilities Section -->
+    <section id="facilities" class="facilities section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">World-Class Facilities</h2>
+            <p class="section-subtitle reveal">Experience an environment designed for holistic development and innovation.</p>
+
+            <div class="facilities-grid reveal">
+                <div class="facility-card">
+                    <img src="images/robotics-lab.png" alt="Innovation Hub">
+                    <div class="facility-overlay">
+                        <i class="fa-solid fa-microchip"></i>
+                        <h3>Innovation Hub & Labs</h3>
+                    </div>
+                </div>
+                <div class="facility-card">
+                    <img src="images/hero-bg.png" alt="Campus">
+                    <div class="facility-overlay">
+                        <i class="fa-solid fa-tree"></i>
+                        <h3>Green Campus</h3>
+                    </div>
+                </div>
+                <div class="facility-card" style="background: var(--primary-color);">
+                    <!-- Using CSS styled block instead of image to save generation time -->
+                    <div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.2); font-size:5rem;"><i class="fa-solid fa-book"></i></div>
+                    <div class="facility-overlay">
+                        <i class="fa-solid fa-book-open"></i>
+                        <h3>Central & Digital Library</h3>
+                    </div>
+                </div>
+                <div class="facility-card" style="background: var(--secondary-color);">
+                    <div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.2); font-size:5rem;"><i class="fa-solid fa-bed"></i></div>
+                    <div class="facility-overlay">
+                        <i class="fa-solid fa-building-user"></i>
+                        <h3>Modern Hostels</h3>
+                    </div>
+                </div>
+                <div class="facility-card" style="background: #1e293b;">
+                    <div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.2); font-size:5rem;"><i class="fa-solid fa-volleyball"></i></div>
+                    <div class="facility-overlay">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3>Sports Complex</h3>
+                    </div>
+                </div>
+                <div class="facility-card" style="background: var(--primary-color);">
+                    <div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.2); font-size:5rem;"><i class="fa-solid fa-bus"></i></div>
+                    <div class="facility-overlay">
+                        <i class="fa-solid fa-bus-simple"></i>
+                        <h3>Transportation</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Campus Gallery -->
+    <section id="gallery" class="gallery section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Campus Life</h2>
+            
+            <div class="gallery-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="campus">Campus</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="labs">Labs</button>
+            </div>
+
+            <div class="gallery-grid reveal">
+                <div class="gallery-item wide campus">
+                    <img src="images/hero-bg.png" alt="Campus View">
+                </div>
+                <div class="gallery-item tall labs">
+                    <img src="images/robotics-lab.png" alt="Robotics Lab">
+                </div>
+                <div class="gallery-item events">
+                    <img src="images/hero-bg.png" alt="Tech Fest">
+                </div>
+                <div class="gallery-item labs">
+                    <img src="images/robotics-lab.png" alt="Computer Lab">
+                </div>
+                <div class="gallery-item campus">
+                    <img src="images/hero-bg.png" alt="Library Exterior">
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <span class="lightbox-close"><i class="fa-solid fa-xmark"></i></span>
+            <img src="" alt="Popup Image" id="lightbox-img">
+        </div>
+    </section>
+
+    <!-- 9. Testimonials Section -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Student Success Stories</h2>
+            <p class="section-subtitle reveal">Hear from our students and alumni about their journey at Apex Tech.</p>
+
+            <div class="testimonial-container reveal">
+                <div class="testi-slider">
+                    <div class="testi-slide">
+                        <i class="fa-solid fa-quote-left testi-icon"></i>
+                        <p class="testi-text">"Apex Tech provided me with the perfect blend of theoretical knowledge and practical exposure. The modern labs and supportive faculty helped me secure a position at a top MNC."</p>
+                        <div class="testi-author">
+                            <img src="https://ui-avatars.com/api/?name=Sarah+Johnson&background=0f172a&color=fff" alt="Sarah Johnson">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Alumni, CSE (Placed at Infosys)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-slide">
+                        <i class="fa-solid fa-quote-left testi-icon"></i>
+                        <p class="testi-text">"The innovation center here is incredible. I was able to work on a robotics project that won a national level hackathon. The mentorship here is top-notch."</p>
+                        <div class="testi-author">
+                            <img src="https://ui-avatars.com/api/?name=Rahul+Verma&background=f59e0b&color=fff" alt="Rahul Verma">
+                            <div class="author-info">
+                                <h4>Rahul Verma</h4>
+                                <p>Student, Robotics & AI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-slide">
+                        <i class="fa-solid fa-quote-left testi-icon"></i>
+                        <p class="testi-text">"As a parent, I am extremely satisfied with the discipline, academic rigor, and the excellent placement support provided by the college. It's truly a great place for learning."</p>
+                        <div class="testi-author">
+                            <img src="https://ui-avatars.com/api/?name=Michael+Chen&background=1e293b&color=fff" alt="Michael Chen">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Parent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. News & Events Section -->
+    <section id="events" class="events section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">News & Events</h2>
+            <p class="section-subtitle reveal">Stay updated with the latest happenings on campus.</p>
+
+            <div class="events-grid reveal">
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="images/robotics-lab.png" alt="Tech Symposium">
+                        <div class="date-badge">
+                            <span class="day">15</span>
+                            <span class="month">Oct</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-meta">
+                            <span><i class="fa-regular fa-clock"></i> 9:00 AM</span>
+                            <span><i class="fa-solid fa-location-dot"></i> Main Auditorium</span>
+                        </div>
+                        <h3>National Tech Symposium 2026</h3>
+                        <p>Join us for a 3-day tech extravaganza featuring hackathons, project displays, and expert talks.</p>
+                        <a href="#" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="images/hero-bg.png" alt="Placement Drive">
+                        <div class="date-badge">
+                            <span class="day">22</span>
+                            <span class="month">Oct</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-meta">
+                            <span><i class="fa-regular fa-clock"></i> 10:00 AM</span>
+                            <span><i class="fa-solid fa-location-dot"></i> Placement Cell</span>
+                        </div>
+                        <h3>Mega Placement Drive</h3>
+                        <p>Top IT companies visiting campus for hiring final year engineering students.</p>
+                        <a href="#" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-img" style="background: var(--secondary-color);">
+                        <!-- Placeholder using CSS color for variation -->
+                        <div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.2); font-size:5rem;"><i class="fa-solid fa-users-gear"></i></div>
+                        <div class="date-badge">
+                            <span class="day">05</span>
+                            <span class="month">Nov</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-meta">
+                            <span><i class="fa-regular fa-clock"></i> 2:00 PM</span>
+                            <span><i class="fa-solid fa-location-dot"></i> Seminar Hall</span>
+                        </div>
+                        <h3>AI & ML Workshop</h3>
+                        <p>Hands-on workshop on machine learning models conducted by industry experts.</p>
+                        <a href="#" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Anti-Ragging & Student Support -->
+    <section class="support section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Student Support Cells</h2>
+            <p class="section-subtitle reveal" style="color:#cbd5e1;">We ensure a safe, inclusive, and supportive environment for all students.</p>
+
+            <div class="support-grid reveal">
+                <div class="support-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Anti-Ragging Cell</h3>
+                    <a href="#contact" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.9rem;">Report Issue</a>
+                </div>
+                <div class="support-card">
+                    <i class="fa-solid fa-venus"></i>
+                    <h3>Women Development Cell</h3>
+                    <a href="#contact" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.9rem;">Contact</a>
+                </div>
+                <div class="support-card">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <h3>Grievance Cell</h3>
+                    <a href="#contact" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.9rem;">Submit Query</a>
+                </div>
+                <div class="support-card">
+                    <i class="fa-solid fa-hands-holding-child"></i>
+                    <h3>Counseling Support</h3>
+                    <a href="#contact" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.9rem;">Book Session</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <p class="section-subtitle reveal">Have questions? We're here to help you navigate your educational journey.</p>
+
+            <div class="contact-wrap reveal">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Apex Boulevard, Tech Park Road,<br>Silicon Valley, 90210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (800) 123-4567<br>+1 (800) 987-6543</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>admissions@apextech.edu<br>info@apextech.edu</p>
+                        </div>
+                    </div>
+
+                    <!-- Embedded Google Map -->
+                    <div style="margin-top: 40px; border-radius: 10px; overflow: hidden;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.063901170949!2d-122.40114008468205!3d37.78850617975704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064a38380e5%3A0xc3c50005701d1617!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1655000000000!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3 style="font-size: 1.8rem; color: var(--primary-color); margin-bottom: 20px;">Send a Message</h3>
+                    <div id="formMessage" class="form-message"></div>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="phone" placeholder="Your Phone (10 digits)">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane" style="margin-left: 8px;"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="margin-bottom: 20px;"><i class="fa-solid fa-graduation-cap"></i> Apex<span>Tech</span></a>
+                    <p>Empowering the next generation of innovators, creators, and leaders through world-class education and research opportunities.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About College</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#placements">Placements</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Departments</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Computer Science</a></li>
+                        <li><a href="#">AI & Data Science</a></li>
+                        <li><a href="#">Mechanical Eng.</a></li>
+                        <li><a href="#">Civil Eng.</a></li>
+                        <li><a href="#">Electronics</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter to get latest updates and news.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter Email Address" required>
+                        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Apex Institute of Technology. All Rights Reserved. Designed with <i class="fa-solid fa-heart" style="color:var(--accent-color);"></i>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div id="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
